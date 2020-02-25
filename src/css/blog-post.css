@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+@tailwind base;
+
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+h1 {
+    @apply text-3xl my-5 font-bold border-b-2;
+}
+h2 {
+    @apply text-xl my-5 font-bold border-b-2;
+}
+p {
+    @apply my-2
+}
