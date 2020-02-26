@@ -2,7 +2,7 @@
 path: /the-steps-of-cbt
 date: 2020-02-25T17:12:33.962Z
 title: Why an app is so well suited for Cognitive Behavioural Therapy.
-readTime: 10 min
+readTime: 5 min
 author: Ian
 featuredImage: ../../images/rorschach.jpg
 authorImage: ../../images/authors/ian.jpg
@@ -40,3 +40,42 @@ It's important to compartmentalize the situations where you feel bad. This could
  It should't be: "I just feel sad all the time".
  
 ## Step two: Write down all the thoughts occurred to you at the time
+This step is centered around taking a cloud of negative feelings and turning them into individual thoughts. 
+Before I would begin a session I always thought that my negative feelings were very justified and their origins crystal clear.
+This was actually never the case. Writing down every single thought that occurred to me surrounding the event 
+would give me more understanding. It also showed me that the state I was previously in was very clouded.
+
+A short example of a thought could be: "My boss thinks I'm good for nothing" or "My husband is definitely
+ unhappy with our marriage".
+ 
+## Step three: Write down the good things these thoughts say about you
+This step is magic. It tries to eliminate your resistance against therapy. If someone would spin your negative 
+thoughts into something positive, you would likely disagree. I know I would. If I thought my coworkers were completely
+ fed up with me, and someone would say: "Well at least you think it's important to have a positive work environment."
+I would probably first throw up, and then create a very elaborate argument portraying why that person is a naive optimist.
+
+However if you forcefully take the role of that person, and try to think of positive personality traits that 
+go along with your negative thoughts, you're inclined to start believing it. 
+
+It's like being forced to defend point of view you don't necessarily agree with; you're bound to find some arguments 
+that support the view you're trying to defend. You'll change your view on reality to make it resonate with the point 
+you're defending. This is called cognitive dissonance. And in this step, you're dissonating yourself into positivity. 
+Even if you dont agree with positive things yet. 
+
+## Step four: Find the distortions in your thoughts
+Most people love this step. It's picking from a set of 12 distortions, and linking them to a thought. 
+You're thought are littered with distortions. I mostly fall into the trap of 'Fortune Telling': predicting the 
+future and deducing it's going to look bad for  me. You can check all the distortions and what they do
+ [here](https://psychcentral.com/lib/15-common-cognitive-distortions/).
+ 
+## Step five: Write down more realistic thoughts
+After completely dissecting your thoughts, odds are you've found things you don't agree with anymore. In this final step
+you can create thoughts that you do agree with. Things like "I don't know if my husband still loves me.
+ I can only go to him and ask him to be honest. And maybe find help in our relationship."
+ 
+## Conclusion
+That's basically all there is to it. If you have things to add, or disagree with, or just want to talk about, feel 
+free to hit me up! Parley encapsulates all these steps and some extra nuancing in the individual steps. 
+
+So yeah, that was my curiosity fueled 6 month adventure in a few minutes. if you're more interested in the stoic side 
+of the therapy, let me know! I'd love to talk about it, and maybe write something about it idk. 
