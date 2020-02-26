@@ -24,6 +24,30 @@ exports.createPages = ({ actions, graphql }) => {
             path
             date
             title
+            readTime
+            author
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
+                }
+              }
+            }
+            authorImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  src
+                  srcSet
+                  aspectRatio
+                  sizes
+                  base64
+                }
+              }
+            }
           }
         }
       }

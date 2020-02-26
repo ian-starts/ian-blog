@@ -12,12 +12,46 @@ body {
 /* purgecss end ignore */
 @tailwind utilities;
 
+@tailwind screens;
+
 h1 {
-    @apply text-3xl my-5 font-bold border-b-2;
+    @apply text-3xl font-bold leading-tight;
 }
 h2 {
     @apply text-xl my-5 font-bold border-b-2;
 }
 p {
     @apply my-2
+}
+
+a {
+    @apply underline
+}
+a:hover {
+    @apply line-through
+}
+
+@screen md {
+    h1 {
+        @apply text-4xl;
+    }
+    h2 {
+        @apply text-2xl my-5 font-bold border-b-2;
+    }
+}
+@screen lg {
+    h1 {
+        @apply text-5xl;
+    }
+    h2 {
+        @apply text-2xl my-5 font-bold border-b-2;
+    }
+}
+@screen xl {
+    h1 {
+        @apply text-5xl;
+    }
+    h2 {
+        @apply text-2xl my-5 font-bold border-b-2;
+    }
 }
