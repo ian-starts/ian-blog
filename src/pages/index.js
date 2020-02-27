@@ -13,9 +13,10 @@ export default function Index({
   return (
     <div className="flex index-container">
       <Helmet title={`Ian's Blog`}/>
-      <div className="flex w-0 lg:w-40 xl:w-40"/>
-      <div className="flex-1 h-screen bg-black px-10 overflow-auto">
-        <div className="flex flex-row my-10">
+      <div className="flex w-0 lg:w-40 xl:w-40">
+      </div>
+      <div className="flex-1 h-screen bg-black py-10 px-8 md:px-12 lg:px-12 xl:px-12 overflow-auto">
+        <div className="flex flex-row my-6">
           <h1 className="text-white font-bold text-6xl md:text-7xl lg:text-8xl xl:text-8xl">BLOG</h1>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
