@@ -8,4 +8,16 @@
     color:white;
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+.link {
+    background-size: 1px 1em;
+    text-decoration: none;
+    text-decoration-color: #9600ff;
+    border-bottom: 3px solid #9600ff;
+}
+.link:hover {
+    border-bottom: none;
+    @apply line-through;
+    text-decoration-color: #9600ff;
+}
 /* purgecss end ignore */

@@ -31,7 +31,7 @@ export default function Index({
                   return (
                     <div key={post.id} className="mb-10">
                       <h1 className="my-0 text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
-                        <Link className="text-white font-bold"
+                        <Link className="text-white font-bold link"
                               to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                       </h1>
                       <h3
