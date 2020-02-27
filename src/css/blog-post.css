@@ -10,10 +10,6 @@ body {
 @tailwind base;
 
 @tailwind components;
-/* purgecss end ignore */
-@tailwind utilities;
-
-@tailwind screens;
 
 h1 {
     @apply text-3xl font-bold leading-tight;
@@ -56,3 +52,7 @@ a:hover {
         @apply text-2xl my-5 font-bold border-b-2;
     }
 }
+/* purgecss end ignore */
+@tailwind utilities;
+
+@tailwind screens;
