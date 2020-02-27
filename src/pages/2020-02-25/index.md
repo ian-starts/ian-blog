@@ -2,6 +2,7 @@
 path: /the-steps-of-cbt
 date: 2020-02-25T17:12:33.962Z
 title: Why an app is so well suited for Cognitive Behavioural Therapy.
+topic: Psychology
 readTime: 5 min
 author: Ian
 featuredImage: ../../images/rorschach.jpg

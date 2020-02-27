@@ -1,0 +1,9 @@
+.index-container {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(#fff 1px, #000000de 0), radial-gradient(#fff 1px, transparent 0);
+    background-size: 52px 52px;
+    background-position: 0 15px, 26px 40px;
+    color:white;
+    font-family: "IBM Plex Sans", sans-serif;
+}
