@@ -11,8 +11,8 @@ export default function Index({
   const { edges: posts } = data.allMarkdownRemark
   const groupedItems = groupBy(posts, (post) => post.node.frontmatter.topic)
   return (
-    <div className="flex index-container"
-         style={{backgroundImage: "background-image: radial-gradient(#fff 1px, #000000de 0), radial-gradient(#fff 1px, transparent 0);" }}>
+    <div className="flex index-container">
+      <Helmet title={`Ian's Blog`}/>
       <div className="flex w-0 lg:w-40 xl:w-40"/>
       <div className="flex-1 h-screen bg-black px-10 overflow-auto">
         <div className="flex flex-row my-10">
