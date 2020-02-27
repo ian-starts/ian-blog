@@ -3,7 +3,8 @@ import Helmet from "react-helmet"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import "../css/blog-post.css" // make it pretty!
+import "../css/blog-post.css"
+import Link from "gatsby-link" // make it pretty!
 
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
@@ -12,12 +13,15 @@ export default function Template({ data }) {
   return (
     <div className="flex justify-center">
       <Helmet title={`Ian's Blog - ${post.frontmatter.title}`}/>
-      <div className="absolute top-0 w-full h-64 z-0">
+      <div className="absolute top-0 w-full z-0" style={{height: '20rem'}}>
         <Img className="flex h-full" fluid={featuredImgFluid}
              alt="cover art"
         />
       </div>
-      <div className="flex-1 max-w-4xl my-0 md:my-10 lg:my-10 xl:my-10 bg-white rounded-md p-10 z-10">
+      <Link to={"/"} className="absolute bg-teal-100 py-1 px-3 rounded-md" style={{top: '4vw', left: '5vw', color: 'black'}}>
+        ← Home
+      </Link>
+      <div className="flex-1 max-w-4xl my-40 bg-white rounded-md p-10 z-10">
         <h1>{post.frontmatter.title}</h1>
         <div className="flex flex-row my-5">
           <Img className="rounded-full w-10 mr-5" fluid={authorimageFluid}
