@@ -20,14 +20,37 @@ h2 {
 p {
     @apply my-2
 }
-
+ul{
+    @apply mx-5 list-disc
+}
+ol{
+    @apply mx-5 list-decimal
+}
+li{
+    @apply py-2
+}
 a {
     @apply underline
 }
 a:hover {
     @apply line-through
 }
+img{
+    @apply w-full
+}
 
+table{
+    @apply w-full border-2 border-gray-500
+}
+th{
+    @apply text-left
+}
+th,td{
+    @apply p-2 border-gray-500 border overflow-scroll
+}
+pre{
+    @apply m-2
+}
 @screen md {
     h1 {
         @apply text-4xl;
