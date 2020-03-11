@@ -7,7 +7,7 @@ readTime: 5 min
 author: Ian
 featuredImage: ../../images/rorschach.jpg
 authorImage: ../../images/authors/ian.jpg
-ogImagePath: /posts/the-steps-of-cbt/og-image.png
+ogImagePath: /posts/the-steps-of-cbt/images/og-image.png
 description: "A 5 min blog post summarizing what Cognitive Behavioural Therapy entails. This post walks through 
 five major steps used one of the most widely used psychotherapy." 
 ---
