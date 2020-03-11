@@ -1,7 +1,7 @@
 ---
-path: /deploying-on-kubernetes-with-rancher-and-terraform
+path: /setting-up-kubernetes-with-rancher-on-hetzner
 date: 2020-02-25T17:12:33.962Z
-title: Deploying on Kubernetes with Rancher and Terraform
+title: Setting up Kubernetes with Rancher on Hetzner
 topic: Devops
 readTime: 10 min
 author: Ian
