@@ -27,7 +27,7 @@ export default function Index({
               content="A blog about which is mostly about how tech and society works together. Expect things like
               'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
               and then, so expect some guides revolving around that too!"/>
-        <meta property="og:image" content="https://getparley.app/images/og-image.png"/>
+        <meta property="og:image" content="https://blog.iankok.com/images/og-image.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://blog.iankok.com"/>
@@ -36,7 +36,7 @@ export default function Index({
               content="A blog about which is mostly about how tech and society works together. Expect things like
               'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
               and then, so expect some guides revolving around that too!"/>
-        <meta property="og:image" content="https://getparley.app/images/og-image.png"/>
+        <meta property="og:image" content="https://blog.iankok.com/images/og-image.png"/>
         <meta charSet="utf-8" />
       </Helmet>
       <a href="https://iankok.com">

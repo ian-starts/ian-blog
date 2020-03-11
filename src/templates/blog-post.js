@@ -24,14 +24,14 @@ export default function Template({ data }) {
         <meta property="og:title" content={title}/>
         <meta property="og:description"
               content={post.frontmatter.description}/>
-        <meta property="og:image" content={`https://getparley.app${post.frontmatter.ogImagePath}`}/>
+        <meta property="og:image" content={`https://blog.iankok.com${post.frontmatter.ogImagePath}`}/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content={"https://blog.iankok.com" + post.frontmatter.path}/>
         <meta property="twitter:title" content={title}/>
         <meta property="twitter:description"
               content={post.frontmatter.description}/>
-        <meta property="twitter:image" content={`https://getparley.app${post.frontmatter.ogImagePath}`}/>
+        <meta property="twitter:image" content={`https://blog.iankok.com${post.frontmatter.ogImagePath}`}/>
         <meta charSet="utf-8" />
       </Helmet>
       <div className="absolute top-0 w-full z-0" style={{height: '30rem'}}>
