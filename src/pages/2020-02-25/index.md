@@ -7,6 +7,9 @@ readTime: 5 min
 author: Ian
 featuredImage: ../../images/rorschach.jpg
 authorImage: ../../images/authors/ian.jpg
+ogImagePath: /posts/the-steps-of-cbt/og-image.png
+description: "A 5 min blog post summarizing what Cognitive Behavioural Therapy entails. This post walks through 
+five major steps used one of the most widely used psychotherapy." 
 ---
 Some time ago I listened to a [podcast](https://samharris.org/podcasts/137-safe-space/) about Jonathan Haidt's 
 book *[The Coddling of the American Mind](https://www.amazon.com/Coddling-American-Mind-Intentions-Generation/dp/0735224897)*.

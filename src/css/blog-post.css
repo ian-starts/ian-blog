@@ -14,65 +14,101 @@ body {
 h1 {
     @apply text-3xl font-bold leading-tight;
 }
+
 h2 {
     @apply text-xl my-5 font-bold border-b-2;
 }
+
 p {
     @apply my-2
 }
-ul{
-    @apply mx-5 list-disc
+
+ul {
+    @apply mx-2 list-disc
 }
-ol{
-    @apply mx-5 list-decimal
+
+ol {
+    @apply mx-2 list-decimal
 }
-li{
+
+li {
     @apply py-2
 }
+
 a {
     @apply underline
 }
+
 a:hover {
     @apply line-through
 }
-img{
+
+img {
     @apply w-full
 }
 
-table{
+table {
     @apply w-full border-2 border-gray-500
 }
-th{
+
+th {
     @apply text-left
 }
-th,td{
+
+th, td {
     @apply p-2 border-gray-500 border overflow-scroll
 }
-pre{
-    @apply m-2
+
+pre {
+    @apply my-2
 }
+
 @screen md {
     h1 {
         @apply text-4xl;
     }
+
     h2 {
         @apply text-2xl my-5 font-bold border-b-2;
+    }
+    ul {
+        @apply mx-2
+    }
+
+    ol {
+        @apply mx-2
     }
 }
 @screen lg {
     h1 {
         @apply text-5xl;
     }
+
     h2 {
         @apply text-2xl my-5 font-bold border-b-2;
+    }
+    ul {
+        @apply mx-5
+    }
+
+    ol {
+        @apply mx-5
     }
 }
 @screen xl {
     h1 {
         @apply text-5xl;
     }
+
     h2 {
         @apply text-2xl my-5 font-bold border-b-2;
+    }
+    ul {
+        @apply mx-5
+    }
+
+    ol {
+        @apply mx-5
     }
 }
 /* purgecss end ignore */

@@ -7,6 +7,8 @@ readTime: 10 min
 author: Ian
 featuredImage: ../../images/kubectl-wheel.jpg
 authorImage: ../../images/authors/ian.jpg
+ogImagePath: /posts/kubernetes-hetzner/og-image.png
+description: "This post will walk you through setting up a simple Kubernetes cluster on Hetzner Cloud with Rancher."
 ---
 One of the big advantages of using Docker is the promise of an easy deployment process. And while this is definitely
  the case for smaller application with, for instance, [docker compose](), it's not really a production ready solution.

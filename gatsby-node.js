@@ -27,6 +27,8 @@ exports.createPages = ({ actions, graphql }) => {
             topic
             readTime
             author
+            ogImagePath
+            description
             featuredImage {
               childImageSharp {
                 fluid(maxWidth: 800) {

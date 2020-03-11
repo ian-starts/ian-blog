@@ -12,7 +12,33 @@ export default function Index({
   const groupedItems = groupBy(posts, (post) => post.node.frontmatter.topic)
   return (
     <div className="flex index-container">
-      <Helmet title={`Ian's Blog`}/>
+      <Helmet>
+        <title>Ian's Blog</title>
+        <meta name="title" content="Ian's Blog"/>
+        <meta name="description"
+              content="A blog about which is mostly about how tech and society works together. Expect things like
+              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
+              and then, so expect some guides revolving around that too!"/>
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://blog.iankok.com"/>
+        <meta property="og:title" content="Ian's Blog"/>
+        <meta property="og:description"
+              content="A blog about which is mostly about how tech and society works together. Expect things like
+              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
+              and then, so expect some guides revolving around that too!"/>
+        <meta property="og:image" content="https://getparley.app/images/og-image.png"/>
+
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://blog.iankok.com"/>
+        <meta property="twitter:title" content="Ian's Blog"/>
+        <meta property="twitter:description"
+              content="A blog about which is mostly about how tech and society works together. Expect things like
+              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
+              and then, so expect some guides revolving around that too!"/>
+        <meta property="og:image" content="https://getparley.app/images/og-image.png"/>
+        <meta charSet="utf-8" />
+      </Helmet>
       <a href="https://iankok.com">
         <div className="flex w-0 lg:w-40 xl:w-40"/>
       </a>
