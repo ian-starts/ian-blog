@@ -38,6 +38,10 @@ export default function Index({
               and then, so expect some guides revolving around that too!"/>
         <meta property="og:image" content="https://blog.iankok.com/images/og-image.png"/>
         <meta charSet="utf-8" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="manifest" href="/site.webmanifest"/>
       </Helmet>
       <a href="https://iankok.com">
         <div className="flex w-0 lg:w-40 xl:w-40"/>

@@ -9,8 +9,8 @@ import Link from "gatsby-link" // make it pretty!
 export default function Template({ data }) {
   const { markdownRemark: post } = data // data.markdownRemark holds our post data
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
-  let authorimageFluid = post.frontmatter.authorImage.childImageSharp.fluid;
-  let title = "Ian's Blog - " + post.frontmatter.title;
+  let authorimageFluid = post.frontmatter.authorImage.childImageSharp.fluid
+  let title = "Ian's Blog - " + post.frontmatter.title
   return (
     <div className="flex justify-center">
       <Helmet>
@@ -32,14 +32,19 @@ export default function Template({ data }) {
         <meta property="twitter:description"
               content={post.frontmatter.description}/>
         <meta property="twitter:image" content={`https://blog.iankok.com${post.frontmatter.ogImagePath}`}/>
-        <meta charSet="utf-8" />
+        <meta charSet="utf-8"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+        <link rel="manifest" href="/site.webmanifest"/>
       </Helmet>
-      <div className="absolute top-0 w-full z-0" style={{height: '30rem'}}>
+      <div className="absolute top-0 w-full z-0" style={{ height: "30rem" }}>
         <Img className="flex h-full" fluid={featuredImgFluid}
              alt="cover art"
         />
       </div>
-      <Link to={"/"} className="absolute bg-teal-100 py-1 px-3 rounded-md" style={{top: '4vw', left: '5vw', color: 'black'}}>
+      <Link to={"/"} className="absolute bg-teal-100 py-1 px-3 rounded-md"
+            style={{ top: "4vw", left: "5vw", color: "black" }}>
         ← Home
       </Link>
       <div className="max-w-4xl mb-40 mt-56 bg-white rounded-md p-6 z-10 w-full md:p-10 lg:p-10 xl:p-10">
@@ -48,7 +53,8 @@ export default function Template({ data }) {
           <Img className="rounded-full w-10 mr-5" fluid={authorimageFluid}
                alt={post.frontmatter.author}
           />
-          <p className="italic text-gray-700">By {post.frontmatter.author} - {new Date(post.frontmatter.date).toDateString()} - {post.frontmatter.readTime} read</p>
+          <p
+            className="italic text-gray-700">By {post.frontmatter.author} - {new Date(post.frontmatter.date).toDateString()} - {post.frontmatter.readTime} read</p>
         </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }}/>
       </div>
@@ -57,40 +63,40 @@ export default function Template({ data }) {
 }
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        path
-        title
-        readTime
-        author
-        ogImagePath
-        description
-        featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              src
-              srcSet
-              aspectRatio
-              sizes
-              base64
-            }
-          }
-        }
-        authorImage {
-          childImageSharp {
-            fluid(maxWidth: 100) {
-              src
-              srcSet
-              aspectRatio
-              sizes
-              base64
-            }
-          }
-        }
-      }
-    }
-  }
+query BlogPostByPath($path: String!) {
+  markdownRemark(frontmatter: {path: {eq: $path}}) {
+  html
+  frontmatter {
+  date(formatString: "MMMM DD, YYYY")
+  path
+  title
+  readTime
+  author
+  ogImagePath
+  description
+  featuredImage {
+  childImageSharp {
+  fluid(maxWidth: 1000) {
+  src
+  srcSet
+  aspectRatio
+  sizes
+  base64
+}
+}
+}
+  authorImage {
+  childImageSharp {
+  fluid(maxWidth: 100) {
+  src
+  srcSet
+  aspectRatio
+  sizes
+  base64
+}
+}
+}
+}
+}
+}
 `
