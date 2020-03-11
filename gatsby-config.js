@@ -3,8 +3,10 @@ module.exports = {
     title: `Ian's Blog`,
     description: `A blog where I occasionally post things I think people should know.`,
     author: `Ian Kok`,
+    siteUrl: `https://blog.iankok.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
