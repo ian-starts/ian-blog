@@ -37,6 +37,8 @@ export default function Template({ data }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
         <link rel="manifest" href="/site.webmanifest"/>
+        <meta name="msapplication-TileColor" content="#da532c"/>
+        <meta name="theme-color" content="#ffffff"/>
       </Helmet>
       <div className="absolute top-0 w-full z-0" style={{ height: "30rem" }}>
         <Img className="flex h-full" fluid={featuredImgFluid}
