@@ -2,7 +2,8 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-
+import rehypeReact from "rehype-react"
+import Table from "../components/Table"
 import "../css/blog-post.css"
 import Link from "gatsby-link" // make it pretty!
 
@@ -11,6 +12,14 @@ export default function Template({ data }) {
   let featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
   let authorimageFluid = post.frontmatter.authorImage.childImageSharp.fluid
   let title = "Ian's Blog - " + post.frontmatter.title
+
+  const renderAst = new rehypeReact({
+    createElement: React.createElement,
+    components: {
+      table: Table,
+    },
+  }).Compiler
+
   return (
     <div className="flex justify-center">
       <Helmet>
@@ -58,7 +67,9 @@ export default function Template({ data }) {
           <p
             className="italic text-gray-700">By {post.frontmatter.author} - {new Date(post.frontmatter.date).toDateString()} - {post.frontmatter.readTime} read</p>
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}/>
+        {
+          renderAst(post.htmlAst)
+        }
       </div>
     </div>
   )
@@ -67,7 +78,7 @@ export default function Template({ data }) {
 export const pageQuery = graphql`
 query BlogPostByPath($path: String!) {
   markdownRemark(frontmatter: {path: {eq: $path}}) {
-  html
+  htmlAst
   frontmatter {
   date(formatString: "MMMM DD, YYYY")
   path

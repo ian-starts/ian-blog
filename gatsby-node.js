@@ -18,7 +18,7 @@ exports.createPages = ({ actions, graphql }) => {
     ) {
       edges {
         node {
-          html
+          htmlAst
           id
           frontmatter {
             path
