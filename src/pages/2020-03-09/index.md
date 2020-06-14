@@ -98,7 +98,7 @@ It will start bitching about SSL if you use the IP. Just accept or setup a domai
     
     | Key        | Value |
     | ------------- |-------------|
-    | Download URL   | ```https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/2.0.1/docker-machine-driver-hetzner_2.0.1_linux_amd64.tar.gz``` |
+    | Download URL   | ```https://github.com/JonasProgrammer/docker-machine-driver-hetzner/releases/download/2.1.0/docker-machine-driver-hetzner_2.1.0_linux_amd64.tar.gz``` |
     |Custom UI URL      | ```https://storage.googleapis.com/hcloud-rancher-v2-ui-driver/component.js``` |
     | Whitelist Domains|```storage.googleapis.com```  |
     
