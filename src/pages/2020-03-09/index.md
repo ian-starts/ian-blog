@@ -78,11 +78,7 @@ Okay first off you're going to need a few things:
    ```shell script
     sudo apt-get install docker-ce docker-ce-cli containerd.io
     ```
-5. Run the Rancher image!
-    ```shell script
-    sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
-    ```
-6. You can do two things right now:
+5. You can do two things right now:
     1. Setup a domain and point it to your server IP or,
     2. Just continue with your server IP and don't bother with a domain.
     
@@ -90,6 +86,16 @@ Okay first off you're going to need a few things:
     Mainly because using a domain enables SSL on your Rancher WebUI.
     If you want to get through this tutorial and go for production later: just use the IP and figure out the domain 
     once you're doing production level stuff.  
+6. Run the Rancher image!
+    * For no domain run:
+        ```shell script
+        sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
+        ```
+    * For domain with domain run:
+        ```shell script
+        sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher --acme-domain <YOUR_DOMAIN>
+        ```
+
 7. Go to [https://[YOUR-SERVER-IP OR YOUR-DOMAIN]]([https://[YOUR_SERVER_IP OR YOUR_DOMAIN]]) and set a strong admin Password. 
 It will start bitching about SSL if you use the IP. Just accept or setup a domain. Whatever, there are no rules.
 
