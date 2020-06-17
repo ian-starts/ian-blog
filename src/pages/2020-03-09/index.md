@@ -91,7 +91,7 @@ Okay first off you're going to need a few things:
         ```shell script
         sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
         ```
-    * For domain with domain run:
+    * For rancher with domain run:
         ```shell script
         sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher --acme-domain <YOUR_DOMAIN>
         ```
