@@ -12,7 +12,7 @@ description: "Here we'll talk about a very opinionated patch method in a strongl
 ---
 Patching a REST API like you're used isn't natively supported in .NET Core, which is a real bummer. 
 
-The reason it doesn't work is quite simple. The JSON reader built into .NET Core tries to parse json into C# objects (also known as POCO's).
+The reason it doesn't work is quite simple. The JSON reader built into .NET Core tries to parse JSON into C# objects (also known as POCO's).
 However when a property of that object cannot be found, it doesn't remove the property, it just makes the value `null`.
 
 So there you are, POCO in hand, ready for action, but you can't know whether the user who made the request wants to set 
@@ -28,7 +28,7 @@ In short; you can't differentiate between these two requests bodies:
 }
 ```
 
-*I want `foo` to remain the what it was:*
+*I want `foo` to remain what it was:*
 ```json
 {
   "bar": true
@@ -164,4 +164,4 @@ So there you have it. A very straightforward method of using a Patch request lik
 
 Also make sure that the request you're making has **`content-type:'application/json-patch+json'`** set as header!
 
-And as always, if you need any help setting up or feel there is something missing in this post, please reach out [reach out](https://yik.dev/contact)!
+And as always, if you need any help setting up or feel there is something missing in this post, please [reach out](https://yik.dev/contact)!
