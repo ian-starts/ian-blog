@@ -2,6 +2,7 @@
 path: /setting-up-kubernetes-with-rancher-on-hetzner
 date: 2020-02-25T17:12:33.962Z
 title: Setting up Kubernetes with Rancher on Hetzner
+keywords: DevOps,Kubernetes,Deployment,Rancher,Hetzner
 topic: Devops
 readTime: 10 min
 author: Ian

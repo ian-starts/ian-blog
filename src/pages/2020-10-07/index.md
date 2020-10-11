@@ -2,6 +2,7 @@
 path: /patching-on-dotnet-core
 date: 2020-10-07T17:12:33.962Z
 title: Patching on .NET Core
+keywords: Patching,NET,Core,REST,API,PATCH
 topic: .NET Core
 readTime: 3 min
 author: Ian

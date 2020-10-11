@@ -2,6 +2,7 @@
 path: /the-steps-of-cbt
 date: 2020-02-25T17:12:33.962Z
 title: Cognitive Behavioural Therapy in a nutshell.
+keywords: CBT,Cognitive,Therapy,Summary
 topic: Psychology
 readTime: 5 min
 author: Ian

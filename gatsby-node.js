@@ -24,6 +24,7 @@ exports.createPages = ({ actions, graphql }) => {
             path
             date
             title
+            keywords
             topic
             readTime
             author

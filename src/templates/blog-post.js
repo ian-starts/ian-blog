@@ -28,6 +28,7 @@ export default function Template({ data }) {
         <meta name="description"
               content={post.frontmatter.description}/>
 
+        <meta name="keywords" content={post.frontmatter.keywords}/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content={"https://blog.iankok.com" + post.frontmatter.path}/>
         <meta property="og:title" content={title}/>
@@ -83,6 +84,7 @@ query BlogPostByPath($path: String!) {
   date(formatString: "MMMM DD, YYYY")
   path
   title
+  keywords
   readTime
   author
   ogImagePath
