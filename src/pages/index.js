@@ -16,26 +16,20 @@ export default function Index({
         <title>Ian's Blog</title>
         <meta name="title" content="Ian's Blog"/>
         <meta name="description"
-              content="A blog about which is mostly about how tech and society works together. Expect things like
-              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
-              and then, so expect some guides revolving around that too!"/>
+              content="A blog about backend development, deployment and the occasional businessy elements!"/>
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://blog.iankok.com"/>
         <meta property="og:title" content="Ian's Blog"/>
         <meta property="og:description"
-              content="A blog about which is mostly about how tech and society works together. Expect things like
-              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
-              and then, so expect some guides revolving around that too!"/>
+              content="A blog about backend development, deployment and the occasional businessy elements!"/>
         <meta property="og:image" content="https://blog.iankok.com/images/og-image.png"/>
 
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:url" content="https://blog.iankok.com"/>
         <meta property="twitter:title" content="Ian's Blog"/>
         <meta property="twitter:description"
-              content="A blog about which is mostly about how tech and society works together. Expect things like
-              'Cognitive Behavioural Therapy as an algorithm'. I also have to break my head on some techy stuff every now
-              and then, so expect some guides revolving around that too!"/>
+              content="A blog about backend development, deployment and the occasional businessy elements!"/>
         <meta property="og:image" content="https://blog.iankok.com/images/og-image.png"/>
         <meta charSet="utf-8"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>

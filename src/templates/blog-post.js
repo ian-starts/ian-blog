@@ -50,8 +50,8 @@ export default function Template({ data }) {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="theme-color" content="#ffffff"/>
       </Helmet>
-      <div className="absolute top-0 w-full z-0" style={{ height: "30rem" }}>
-        <Img className="flex h-full" fluid={featuredImgFluid}
+      <div className="absolute top-0 w-full z-0 image-container">
+        <Img className="flex header-image" fluid={featuredImgFluid}
              alt="cover art"
         />
       </div>

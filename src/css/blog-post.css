@@ -24,7 +24,7 @@ p {
 }
 
 ul {
-    @apply mx-2 list-disc
+    @apply mx-2 list-disc py-2
 }
 
 ol {
@@ -32,7 +32,7 @@ ol {
 }
 
 li {
-    @apply py-2
+    @apply py-1
 }
 
 a {
@@ -61,6 +61,13 @@ th, td {
 
 pre {
     @apply my-2
+}
+.header-image {
+    object-fit: cover;
+    max-height: 30rem;
+}
+.image-container{
+    max-height: 30rem;
 }
 
 @screen md {
