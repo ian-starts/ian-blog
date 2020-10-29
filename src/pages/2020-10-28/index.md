@@ -4,7 +4,7 @@ date: 2020-10-27T17:12:33.962Z
 title: Deploying ElasticSearch on Kubernetes
 keywords: Deploy,Kubernetes,ElasticSearch,Elastic,Search
 topic: Devops
-readTime: 2 min
+readTime: 3 min
 author: Ian
 featuredImage: ../../images/deploying-elasticsearch-on-kubernetes.png
 authorImage: ../../images/authors/ian.jpg
