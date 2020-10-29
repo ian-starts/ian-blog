@@ -18,6 +18,7 @@ that works perfectly.
 
 ## Prerequisites
 1. An up and running kubernetes cluster (see my guide [here](/setting-up-kubernetes-with-rancher-on-hetzner)).
+2. Kubectl installed ([docs](https://kubernetes.io/docs/tasks/tools/install-kubectl/))
    
 ## The easy stuff
 The first and easiest step is adding `ResourceDefinitions` to your cluster. This can be done with an awesome oneliner:
@@ -113,7 +114,7 @@ ElasticSearch cluster I highly recommend a different setup! One that uses HTTPS 
 You can reach it using an application that's already running in your cluster, or using a VPN.
 
 ## Scaling up
-This config is not connected to an autoscaling group. If you want to scale your cluster up to run more than two instances, you can simple change 
+This config is not connected to an autoscaling group. If you want to scale your cluster to run more than two instances, you can simple change 
 ```yaml
 count: 2
 ```
