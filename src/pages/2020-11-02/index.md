@@ -12,11 +12,11 @@ ogImagePath: /posts/electronic-voting/images/og-image.png
 description: "Electronic voting is potentially a huge upside, especially when social distancing. What are the risks? What would a solution look like?"
 ---
 With the 2020 US elections having mail in ballots, 
-I found myself wondering if a digital solution would be safer, more reliable and easier. As usual the answer isn't very straightforward. 
+I found myself wondering if a digital solution would be safer, more reliable and easier. As usual the answer isn't straightforward. 
 
 In this post I'll talk you through some possible solutions and their potential downsides.
 
-I will focus mostly on dutch elections, seeing as I can provide the most value, and most arguments are easily 
+I will mostly focus on Dutch elections, seeing as I can provide the best insights, and most arguments are easily 
 transferable to other nations.
 
 ## Requirements
@@ -45,23 +45,21 @@ manually with a passport check before entering the voting booth.
 
 i-voting is much more difficult, because you can't have the manual check.
 
-## No one's hacking my back account, so how hard can voting be, right?
-Well, unless you're part of a secret society with unlimited wealth who's influencing the world leaders, chances are you're not a very interesting target.
+## We can protect our back accounts, so how hard can protecting votes be, right?
+Well, unless you're part of a secret society with unlimited wealth, chances are your bank account is not a very interesting target.
 
-I know, bummer.
-
-It's hard to imagine the scale of an election. The decision made there has so much influence, 
+The scale of an election is massive. The decision made there has so much influence, 
 that it's an incredibly high value target.
 
 > Most hackers aren't hardcore geeks typing away on their kali linux distro. It's usually a game of 
-> influencing people, leaked data or a weak password. This can be summarized as the *human error*.
+> influencing people, leaked data or a weak password. This can be summarised as the *human error*.
 
 It's much more likely hackers will pour resources into hacking an election than a bank account.
 
 ## e-voting
 e-voting seems like a pretty good idea. it's pretty straight forward on an abstract level: keep everything the same, only make the counting digital.
 
-However this is a massive oversimplification. It's impossible for most voters to check how the system works internally. 
+Too bad it's an oversimplification. It's impossible for most voters to check how the system works internally. 
 Even if the voters were all programmers, the source code doesn't have to be open-source. There's no rule against making the source code private. 
 
 So basically, it's a black box which we have to trust with one of the most important things in a democracy, and impossible for any voter to check the process.
@@ -84,11 +82,11 @@ The lack of pen-testing (inviting good-guy hackers to attack your system and che
 * 2018 – At DEFCON, J. Alex Halderman showed that Diebold AccuVote TSX voting machines could be manipulated remotely in a mock election. The same vulnerable machines were being used in 18 different states. After the event, a 50 page report was released, detailing vulnerabilities in Election Systems & Software’s M650 machine and the Diebold AccuVote TSX. Together, these machines are used in as many as 23 states.
 * 2018 – Some voters in Texas allege that the Hart InterCivic’s eSlate machine was switching their vote to another candidate in the state’s election for senator.
 
-And of course a dutch problem:
+And of course a Dutch problem:
 * 2007 - It was possible to read and analyse the Electromagnetic radiation of voting machines from dozens of meters away. This caused the anonymity to be completely compromised.
 
-sidenote; this was known before an election took place. Still, parts of the election were held with the voting machines, 
-causing the dutch government to be sued, losing, and going back to paper ballots.
+Side-note; this was known before an election took place. Still, parts of the election were held with the voting machines, 
+causing the Dutch government to be sued, losing, and going back to paper ballots.
 
 So yeah, e-voting; not perfect.
 
@@ -96,21 +94,21 @@ So yeah, e-voting; not perfect.
 More recently there has been talk of re-instating e-voting with some big adaptations. 
 
 The new version would basically be a computer with a printer. You can cast your vote in a voting booth with no 
-connectivity to the web. The voting machine would print your vote on a paper, which you can then check for errors and deposit in the voting box.
+connectivity to the web. The voting machine would print your vote on a piece of paper, which you can then check for errors and deposit in the voting box.
 These printed votes are easily read by a central computer, making counting them a lot easier and quicker.
 
-Though this seems like an interesting concept, it's also doesn't have a lot of benefits over just paper ballots. As the software axiom goes "keep it simple, stupid",
+Though this seems like an interesting concept, it's also doesn't have a lot of benefits over paper ballots. As the software axiom goes "keep it simple, stupid",
 this doesn't really comply.
 
 ## i-voting
-I-voting, also known as remote e-voting, is making your voting from the comfort of your own couch.
-The only country which implemented such a system is Estonia. With tech giants migrating more of your life to internet, 
-it seems that it's only logical to move to i-voting. Let's take a look at Estonia. How they're system works, 
+I-voting, also known as remote e-voting, is casting your vote from the comfort of your own couch.
+The only country which implemented such a system is Estonia. With tech giants migrating more of your life to the internet, 
+it seems that it's only logical to move to i-voting. Let's take a look at Estonia. How their system works, 
 what the vulnerabilities are, and whether we should follow suit.
 
 ### How it works
 Estonia's i-voting system builds on their ID card. This ID card is also a smart card and allows owners to digitally 
-sign documents and secure authentication. This already laid infrastructure makes it possible to tackle one of our demands; **verifiability**.
+sign documents and facilitates secure authentication. This already laid infrastructure makes it possible to tackle one of our demands; **verifiability**.
 
 The i-voting system is available in an early voting period (sixth day to fourth day prior to Election Day). You can 
 change your vote an unlimited amount of times in that timeframe. You can also overwrite your vote by going to a 
@@ -118,7 +116,7 @@ polling station, invalidating your i-vote.
 
 When this new voting method was first introduced, the president Arnold Rüütel challenged i-voting, claiming breach of the principle of equality of voting.
 The president brought a petition against the e-voting provisions to Estonian Supreme Court but lost. Rüütel was mostly 
-popular amongst the still russian speaking elderly minority. About 1.9% voted online in the 
+popular amongst the still Russian speaking elderly minority. About 1.9% voted online in the 
 [2005 election](https://archive.is/20120713045721/http://news.com.com/Estonia+pulls+off+nationwide+Net+voting/2100-1028_3-5898115.html). 
 This has increased over the years to [43.8% in 2019](https://rk2019.valimised.ee/en/voting-result/voting-result-main.html).
 
@@ -135,16 +133,16 @@ breach the system, change votes and vote totals, and erase any evidence of their
   However, circling back to human error; what if someone is bribed, careless, or just malicious? The stakes are immense, 
   and these edge cases can not be ignored.
   
-Another big potential risk are the personal devices of the voters. This may be the weakest link in the chain. 
+Another gaping security hole is the personal device of the voter. This may be the weakest link in the chain. 
 The system is quite robust after the ballot has been cast. However, sending that ballot is not trivial. 
 
-It's not very difficult to write a fake web client (hence the hidden source code. That would make it too easy), 
+It's easy to write a fake web client (hence the hidden source code. That would make it too easy), 
 tricking people into thinking they've already voted. Or a piece of malware, sending a different vote than you typed.
 
-These criticisms were parried Estonian National Electoral Committee [claiming](http://vvk.ee/valimiste-korraldamine/vvk-uudised/vabariigi-valimiskomisjoni-vastulause-the-guardianis-ilmunud-artiklile) 
-they "give us no reason to suspend online balloting"; the purported vulnerabilities were said to be either not feasible in reality or already accounted for in the design of the e-voting system.
+The Estonian National Electoral parried these criticisms, [claiming](http://vvk.ee/valimiste-korraldamine/vvk-uudised/vabariigi-valimiskomisjoni-vastulause-the-guardianis-ilmunud-artiklile) 
+they "give us no reason to suspend online balloting". The purported vulnerabilities were said to be either not feasible in reality or already accounted for in the design of the e-voting system.
 
-The Estonian Information System Authority also responded. Claiming that the criticisms as a political, rather than technical, 
+The Estonian Information System Authority also responded. Claiming the criticisms as a political, rather than technical, 
 attack on the e-voting system.
  
 As a technical guy, I can relate to the Estonian Information System Authority. Their system is probably pretty 
@@ -153,8 +151,9 @@ airtight from a technical standpoint, however it's nearly impossible to account 
 ## Conclusion
 I was going to write a big recommendation here, but I don't have a great solution either. 
 
-E-voting, and especially i-voting make life a bit easier, but they carry massive risks. If you try to patch all those potiential socurity holes, you come eerily close to paper ballots.
+E-voting, and especially i-voting make life a bit easier, but they carry massive risks. If you try to patch all those potential security holes, you come eerily close to paper ballots.
 
 So why go through this trouble? It doesn't increase voter turnout, and comes with a ton of extra headaches.
 
 Maybe just stay with paper and a good old pencil? 
+

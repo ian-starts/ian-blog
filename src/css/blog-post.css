@@ -30,7 +30,7 @@ ul {
 }
 
 ol {
-    @apply mx-2 list-decimal
+    @apply mx-2 list-decimal pb-4
 }
 
 li {
