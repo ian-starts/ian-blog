@@ -9,7 +9,7 @@ author: Ian
 featuredImage: ../../images/electronic-voting.png
 authorImage: ../../images/authors/ian.jpg
 ogImagePath: /posts/electronic-voting/images/og-image.png
-description: "Electronic voting is potentially a huge upside, especially when social distancing. What are the risks? What would a solution look like?"
+description: "Electronic voting has the potential to make voting much more user-friendly. What are the potential risks? What would the perfect system look like?"
 ---
 With the 2020 US elections having mail in ballots, 
 I found myself wondering if a digital solution would be safer, more reliable and easier. As usual the answer isn't straightforward. 
